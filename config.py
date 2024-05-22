@@ -25,7 +25,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6532412571))
+OWNER_ID = int(getenv("OWNER_ID", 6153472412))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -115,11 +115,11 @@ SONG_DOWNLOAD_DURATION_LIMIT = int(
 if SUPPORT_CHANNEL:
     if not re.match("(?:http|https)://", SUPPORT_CHANNEL):
         raise SystemExit(
-            "[ERROR] - Your SUPPORT_CHANNEL url is wrong. Please ensure that it starts with https://"
+            "[ERROR] - Your SUPPORT_CHANNEL url is wrong. Please ensure that it starts with https://t.me/esilabotbilgilendirme"
         )
 
 if SUPPORT_CHAT:
     if not re.match("(?:http|https)://", SUPPORT_CHAT):
         raise SystemExit(
-            "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
+            "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://t.me/sorundestekk"
         )
