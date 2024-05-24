@@ -47,12 +47,12 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"Starting Assistants...")
+        LOGGER(__name__).info(f"Asistan başlatılıyor...")
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("mamaklimekani")
-                await self.one.join_chat("mamaklibirininruhu")
+                await self.one.join_chat("sorundestekk")
+                await self.one.join_chat("esilabotbilgilendirme")
             except:
                 pass
             assistants.append(1)
