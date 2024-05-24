@@ -33,7 +33,7 @@ class Anony(Client):
             )
         except (errors.ChannelInvalid, errors.PeerIdInvalid):
             LOGGER(__name__).error(
-                "Bot has failed to access the log group/channel. Make sure that you have added your bot to your log group/channel."
+                "Bot günlük grubuna/kanalına erişemedi.  Botunuzu günlük grubunuza/kanalınıza eklediğinizden emin olun."
             )
             exit()
         except Exception as ex:
