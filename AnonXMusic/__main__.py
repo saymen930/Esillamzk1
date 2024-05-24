@@ -21,7 +21,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER(__name__).error("Assistant client variables not defined, exiting...")
+        LOGGER(__name__).error("Asistan istemci değişkenleri tanımlanmadı, çıkılıyor...")
         exit()
     await sudo()
     try:
