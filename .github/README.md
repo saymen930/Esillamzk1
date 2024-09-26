@@ -27,7 +27,7 @@
 https://railway.app/template/q_Aqc3?referralCode=RlDfoy
 
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/q_Aqc3?referralCode=RlDfoy)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/https://github.com/saymen930)
 
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
