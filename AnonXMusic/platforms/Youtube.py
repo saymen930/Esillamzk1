@@ -3,13 +3,15 @@ import os
 import re
 from typing import Union
 
+import aiohttp
 import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 
-from AnonXMusic.utils.database import is_on_off
-from AnonXMusic.utils.formatters import time_to_seconds
+import config
+from AlexaMusic.utils.database import is_on_off
+from AlexaMusic.utils.formatters import time_to_seconds
 
 
 async def shell_cmd(cmd):
@@ -321,7 +323,7 @@ class YouTubeAPI:
             fpath = f"downloads/{title}.mp3"
             return fpath
         elif video:
-            if await is_on_off(1):
+            if await is_on_off(config.YTDOWNLOADER):
                 direct = True
                 downloaded_file = await loop.run_in_executor(None, video_dl)
             else:
