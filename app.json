@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "29246808",
+        "value": "16501912",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "882d54177832b954b432aae3ab52dada",
+        "value": "34138f0596a914d229f8bc1ab7794bc6",
         "required": true
       },
       "BOT_TOKEN": {
@@ -39,16 +39,16 @@
       },
       "STRING_SESSION": {
         "description": "A Pyrogram v2 String Session from @StringFatherBot on Telegram.",
-        "value": "AQCR02eSSmSxdCJ1HRUEBjZHnMOiE7hwst9zkhyJe-nk8eQZP46NxR_9i_cKI76nSKZQKIjmMZ1pq8_ai8dEMn6MHesoBaISHYAiJ-1TmmIr7Gz7rezz9RG2heRMHaflPkYfm60ksom2HqdXUE3DRZHoqh0XOl3E83-n2jXGNaSWmxhNeTmyPKWgFDADfNTFHz67i7MJbAR73EJZgrCxpvDkeelQ42HDQbxBE8ht8dJpNbXRypWQ1zPJBDF2HWj-MI4aKcVSRUmJlz1RXjQeD3FwSYjm5u5NVYkimVaE-iy4D4ew_80rbH1GHBgxw2tU8x74Bb9cA0GxZUhmQlVN79mnAAAAAdWbLigA",
+        "value": "AgANZ9Ov8RQi3hjeoubIr7jZvElg4X01vhOitXcb3slQVu1GFk324yEw07YbzkqegrGkQk67U3rkWltqM8nm5LRxDH6ZdGJ8OlU_zIsV2naIDYDItWLKBJxLYa-kV0ECIdon5EGwkn4BQS9F_cAVjduFoER53dHRjXwLM7dSya2iSLSU5AWaJ-R2fHMByvBhU4yPefeiyNbnhcGp8LaRgzPLkoPpZ2au-Cd2kXklmEvQXWnHK8TJG7EcQlF_azY-Ip9AWGqkbw_ppgAOGja_jjq7La_K7lFde8nGiLCpT4fSxb1gezJmIdJdNnxu0WrDrkY5I-orWp5MhAV_xfgf8FAiAAAAAWL8lFMA",
         "required": true
       },
       "HEROKU_API_KEY": {
-        "description": "Your Heroku account's API key",
+        "description": "HRKU-dde44331-5d75-4c7f-8437-c774c4e5503a",
         "value": "",
         "required": false
       },
       "HEROKU_APP_NAME": {
-        "description": "Your heroku app name",
+        "description": "esilamusic",
         "value": "",
         "required": false
       },
